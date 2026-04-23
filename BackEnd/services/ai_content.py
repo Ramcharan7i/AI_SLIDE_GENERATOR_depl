@@ -12,6 +12,8 @@ api_key = os.getenv("GROQ_API_KEY")
 print("Loaded GROQ KEY:", api_key)
 
 # ✅ Initialize client correctly
+if not api_key:
+    raise Exception("GROQ_API_KEY not found")
 client = Groq(api_key=api_key)
 
 
