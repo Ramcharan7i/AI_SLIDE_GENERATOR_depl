@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-dotenv
+requests
+pillow
+moviepy
+imageio
+imageio-ffmpeg
+python-pptx
+groq
+gtts
